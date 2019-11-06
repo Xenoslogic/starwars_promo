@@ -122,7 +122,7 @@ ul li {
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
-	background: white url("../img/polygon1.svg") center no-repeat;
+	background: white url('https://xenoslogic.github.io/starwars_promo/src/img/polygon1.svg') center no-repeat;
 }
 .main_promo__button::before {
 	content: "";
