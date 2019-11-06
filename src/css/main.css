@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'Proxima Nova Bl';
+	src: url('ProximaNova-Black.eot');
+	src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+		url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Black.woff') format('woff'),
+		url('ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal; 
+} 
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+body {
+	background-image: url(../img/main-bg.png)
+}
+.container {
+	max-width: 1060px;
+	margin: auto;
+	
+}
+.header {
+	margin-top: 91px;
+	
+}
+.nav {
+	display: flex;
+	align-items: center;
+}
+ul li {
+	display: inline-block;
+	
+}
+.nav_logo {
+	margin-right: 70px;
+}
+.nav_link {
+	color: white;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 15px;
+}
+.main {
+	margin-top: 78px;
+	
+}
+.main_promo__subtitle {
+	color: white;
+	font-family: 'Proxima Nova Bl';
+	font-size: 40px;
+	font-weight: 900;
+	font-style: normal;
+}
+.main_promo__title {
+	color: white;
+	font-family: 'Proxima Nova Bl';
+	font-size: 64px;
+	font-weight: 900;
+	font-style: normal;
+	margin-top: 5px;
+}
+.main_promo__text {
+	color: white;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 18px;
+	font-weight: 400;
+	max-width: 572px;
+	min-height: 138px;
+	margin-top: 25px;
+}
+.main_promo__premier {
+	display: block;
+	color: #B02000;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	
+}
+.main_promo__date {
+	display: block;
+	color: white;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 150%;
+	margin-top: 5px;
+}
+.main_promo__button {
+	position: relative;
+	margin-top: 46px;
+	padding: 25px 80px 25px 34px;
+	width: 260px;
+	height: 65px;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	text-transform: uppercase;
+	color: white;
+	background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%);
+	border: 1px solid #000000;
+	border-radius: 300px;
+	
+}
+.main_promo__button::after {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	background: white url("../img/polygon1.svg") center no-repeat;
+}
+.main_promo__button::before {
+	content: "";
+	position: absolute;
+	right: -7px;
+	top: -7px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+	
+}
+
+
